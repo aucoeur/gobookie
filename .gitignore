@@ -1,6 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,go,vscode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,go,vscode
-bookie
+gobookie
+Proposal.pdf
 .env
 ### Go ###
 # Binaries for programs and plugins
