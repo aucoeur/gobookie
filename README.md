@@ -1,5 +1,14 @@
 # gobookie
-BEW 2.5 final project
+> gobookie aims to help users quickly catalog, check prices for resale, donation, etc in one shot. Take a photo of your bookshelves and Bookie will grab title/author information using Google's Cloud Vision API and return additional metadata and check their current resale value.
+
+A BEW 2.5 final project
+
+## To Run:
+```shell
+$ export GOOGLE_APPLICATION_CREDENTIALS=GOOGLE_SA_CREDENTIALS.json
+$ go build -o ./gobookie
+$ ./gobookie scan images/book_1.jpg
+```
 
 > **Proposal:** [proposal.md](proposal.md)
 

@@ -22,9 +22,20 @@ THE SOFTWARE.
 package main
 
 import (
+	"log"
+
+	"github.com/joho/godotenv"
+
 	gobookie "github.com/aucoeur/gobookie/cmd"
 )
 
 func main() {
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatal("Error loading .env file")
+	}
+
+	// GOOGLE_APPLICATION_CREDENTIALS := os.Getenv("GOOGLE_APPLICATION_CREDENTIALS")
+
 	gobookie.Execute()
 }

@@ -38,7 +38,7 @@ var scanCmd = &cobra.Command{
 	Args:  cobra.MaximumNArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("scan called")
-		gcp.ProcessImage(args[1])
+		gcp.ProcessImage(args[0])
 	},
 }
 
