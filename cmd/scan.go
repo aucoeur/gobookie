@@ -25,8 +25,10 @@ package cmd
 
 import (
 	"fmt"
+	"log"
 
 	gcp "github.com/aucoeur/gobookie/gcputil"
+	"github.com/joho/godotenv"
 	"github.com/spf13/cobra"
 )
 
@@ -34,10 +36,15 @@ import (
 var scanCmd = &cobra.Command{
 	Use:   "scan",
 	Short: "Process your photo for text annotation",
-	Long:  `Sends image file from given path to GCP Cloud Vision for processing`,
+	Long:  `Sends image file from given path to GCP Cloud Vision for processing.  Requires Google Cloud Service Agent Credentials`,
 	Args:  cobra.MaximumNArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("scan called")
+		fmt.Println("getting annotations")
+		err := godotenv.Load()
+		// GOOGLE_APPLICATION_CREDENTIALS := os.Getenv("GOOGLE_APPLICATION_CREDENTIALS")
+		if err != nil {
+			log.Fatal("Error loading .env file.  Add to directory or export credentials to env")
+		}
 		gcp.ProcessImage(args[0])
 	},
 }

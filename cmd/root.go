@@ -33,8 +33,8 @@ var cfgFile string
 var rootCmd = &cobra.Command{
 	Use:   "gobookie",
 	Short: "gobookie sparks joy",
-	Long: `gobookie aims to help users quickly catalog their collection, check prices for resale, places to donate, find who's talking about what
-`,
+	Long:  `gobookie aims to help users quickly catalog their collection, check prices for resale, places to donate, find who's talking about what, etc :]`,
+	Args:  cobra.MaximumNArgs(1),
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },

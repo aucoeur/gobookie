@@ -24,7 +24,7 @@
    ### 🔢 Task Description 
    - [x] Connect to GCP Cloud Vision API 
    - [x] Refactor initial annotations query from Node to Go
-   - [ ] Save annotations to JSON
+   - [x] Save annotations to JSON
    - [ ] Write tests
    - [ ] Integrate image processing techniques
      - [x] Research edge detection algos
