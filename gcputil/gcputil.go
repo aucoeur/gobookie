@@ -7,6 +7,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"strings"
 
 	vision "cloud.google.com/go/vision/apiv1"
 	visionpb "google.golang.org/genproto/googleapis/cloud/vision/v1"
@@ -18,27 +19,41 @@ type Vertex struct {
 	Y int `json:"y"`
 }
 
-// Vertices stores 4 XY coordinates that make up a polygon
-type Vertices struct {
-	Vertices []Vertex `json:"vertices"`
+// BoundingPoly stores array of 4 XY coordinates that make up a polygon
+type BoundingPoly struct {
+	//using google's generated protobuf.. probably should do this for the other structs if this works
+	Vertices []*visionpb.Vertex `json:"vertices"`
 }
 
-// ImageAnnotation stores data returned from Cloud Vision
+// Annotation stores Description and BoundingPoly of Description as 'text'
+type Annotation struct {
+	Description  string       `json:"text"`
+	BoundingPoly BoundingPoly `json:"boundingPoly"`
+	// Vertices     []Vertex     `json:"vertices"`
+}
+
+// ImageAnnotation stores data returned from Cloud Vision along with image file metadata
 type ImageAnnotation struct {
-	Filename      string     `json:"filename"`
-	FileExtension string     `json:"fileExtension"`
-	Text          string     `json:"text"`
-	BoundingPoly  []Vertices `json:"boundingPoly"`
+	DirPath       string        `json:"dirPath"`
+	FileName      string        `json:"filename"`
+	FileExtension string        `json:"fileExtension"`
+	Annotations   []*Annotation `json:"annotation"`
 }
 
-// func newImageAnnotation(filename string) ImageAnnotation {
-//         // make a new ImageAnnotation and return a pointer to it
-// 	a := ImageAnnotation{
-// 		Filename:      filepath.Base(filename),
-// 		FileExtension: filepath.Ext(filename),
-// 	}
-//         return &a
-// }
+// Creates a new ImageAnnotation from filename and extension
+func newImageAnnotation(filename string) *ImageAnnotation {
+	base := filepath.Base(filename)
+	file := strings.Split(base, ".")
+	dirPath := filepath.Dir(filename)
+
+	// make a new ImageAnnotation and return a pointer to it
+	a := ImageAnnotation{
+		DirPath:       dirPath,
+		FileName:      file[0],
+		FileExtension: file[1],
+	}
+	return &a
+}
 
 // DetectText sends image to GCP Cloud Vision for processing and annotating
 func DetectText(file string) ([]*visionpb.EntityAnnotation, error) {
@@ -77,12 +92,13 @@ func DetectText(file string) ([]*visionpb.EntityAnnotation, error) {
 	return response, nil
 }
 
-// WriteToFile creates filename.json if file doesn't exist, or appends if it does. Example from https://golang.org/pkg/os/#OpenFile
-// func WriteToFile(annotation *ImageAnnotation) {
+// WriteToFile creates <filename>.json if file doesn't exist, or appends if it does. Example from https://golang.org/pkg/os/#OpenFile
 func WriteToFile(filename string, json []byte) {
+	// func WriteToFile(annotation *ImageAnnotation) {
 
 	// Create the JSON file
-	file, err := os.OpenFile(fmt.Sprintf("%s.json", filename), os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	// file, err := os.OpenFile(fmt.Sprintf("%s.json", filename), os.O_CREATE|os.O_WRONLY, 0644)
+	file, err := os.Create(filename + ".json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -101,35 +117,32 @@ func WriteToFile(filename string, json []byte) {
 // ProcessImage combines all the steps to getting annotations and saving as JSON file
 func ProcessImage(file string) error {
 
+	// Create new ImageAnnotation struct with file info and point to it
+	imgAnno := newImageAnnotation(file)
+
 	res, err := DetectText(file)
 	if err != nil {
 		log.Fatal(err)
 	}
-	var annotations []*ImageAnnotation
-	// var vertices []Vertices
+
+	// Pull the parts out of EntityAnnotation returned from DetectText (line 76).. kinda redundant for now probably
+
 	for i := 0; i < len(res); i++ {
-		// temp := []interface{}{res[i].BoundingPoly.Vertices}
-		// vert, err := json.Marshal(temp)
-		// if err != nil {
-		// 	log.Fatal(err)
-		// }
-		// vertices = append(vertices, string(vert))
-		anno := &ImageAnnotation{
-			Filename:      filepath.Base(file),
-			FileExtension: filepath.Ext(file),
-			Text:          res[i].Description,
-			// BoundingPoly:  []Vertices{vertices},
+		annotation := &Annotation{
+			Description: res[i].Description,
 		}
-		annotations = append(annotations, anno)
+		// Using google's generated pb thingy
+		vertices := res[i].BoundingPoly.GetVertices()
+		annotation.BoundingPoly.Vertices = vertices
+
+		imgAnno.Annotations = append(imgAnno.Annotations, annotation)
 	}
-	// jsonOut, err := json.Marshal(annotations)
-	// if err != nil {
-	//         log.Fatal(err)
-	// }
-	jsonOut, err := json.MarshalIndent(annotations, "", "\t")
+
+	jsonOut, err := json.MarshalIndent(imgAnno, "", "\t")
 	if err != nil {
 		log.Fatal(err)
 	}
-	WriteToFile(filepath.Base(file), jsonOut)
+
+	WriteToFile(fmt.Sprintf("%s/%s", imgAnno.DirPath, imgAnno.FileName), jsonOut)
 	return nil
 }
