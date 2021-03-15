@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"log"
 
-	gcp "github.com/aucoeur/gobookie/gcputil"
+	file "github.com/aucoeur/gobookie/file"
 	"github.com/joho/godotenv"
 	"github.com/spf13/cobra"
 )
@@ -45,7 +45,7 @@ var scanCmd = &cobra.Command{
 		if err != nil {
 			log.Fatal("Error loading .env file.  Add to directory or export credentials to env")
 		}
-		gcp.ProcessImage(args[0])
+		file.ProcessImage(args[0])
 	},
 }
 

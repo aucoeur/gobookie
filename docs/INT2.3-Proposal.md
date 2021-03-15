@@ -10,6 +10,7 @@
 ## Description
 
 **Write a paragraph summary of the current status of your project, what you hope to achieve during the intensive, how and why**
+gobookie aims to help users quickly catalog, check prices for resale, donation, etc in one shot. Take a photo of your bookshelves and gobookie will grab title/author information using Google's Cloud Vision API and return additional metadata and check their current resale value.
 
 ## Objective 1: Group text by book spine using image processing techniques for edge detection
 
@@ -17,18 +18,18 @@
 Right now text annotation returns all text found without delineating between each book.  By splitting text up, the goal is to be able to identify and return product search data individually per book
 
 **How will you demonstrate completion of your objective?** 
-Text within book spine's bounding box will be grouped together and returned as one objet
+Text within book spine's bounding box will be grouped together and returned as one object
 
 ## Objective 2: Write tests
 **Why do you want to meet this objective? How will it improve your project?** 
-This will establish expected behavior and improve code quality by encouraging loose coupling
+This will establish expected behavior and improve code quality and pave the way for automated testing pipelines 
 
 **How will you demonstrate completion of your objective?** 
-test files in repo
+test files in repo with comments
 
 ## Objective 3: Design a frontend
 **Why do you want to meet this objective? How will it improve your project?** 
-Having a frontend would make the app easier to use for the users and set the stage for making it available to use on mobile devices (arguably the defacto, easiest way for this to be used.. take a picture with your phone/device and upload for processing)
+Users can perform operations with a GUI. Having a frontend would make the app easier to use for the users and set the stage for making it available to use on mobile devices (arguably the defacto, easiest way for this to be used.. take a picture with your phone/device and upload for processing)
 
 **How will you demonstrate completion of your objective?** 
 Wireframes, MVP UI deployed to ghphages or github commit history
@@ -55,16 +56,14 @@ Wireframes, MVP UI deployed to ghphages or github commit history
     - Each individual completes 2 of the 3 objectives from their proposal
 - Pitch your product
 
-
-
 ## Approval Checklist
 - [x] ~~If I have a team project,~~ I wrote this proposal to represent my work and only my work
 - [x] I have completed all the necessary parts of this proposal
-- [ ] I linked my proposal in the Spring Intensive Tracker
+- [x] I linked my proposal in the Spring Intensive Tracker
 
 ### Sign off
 
 > **Student Name:**                
-> Name / Date  
+> Aucoeur Ngo / March 15, 2021  
 > **Make School Advisor Name**  
 > TBD
