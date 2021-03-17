@@ -20,45 +20,37 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
-// Package cmd uses cobra for CLI stuff
 package cmd
 
 import (
 	"fmt"
-	"log"
 
 	file "github.com/aucoeur/gobookie/file"
-	"github.com/joho/godotenv"
 	"github.com/spf13/cobra"
 )
 
-// scanCmd represents the scan command
-var annotateCmd = &cobra.Command{
-	Use:   "annotate",
-	Short: "Process your photo for text annotation",
-	Long:  `Sends image file from given path to GCP Cloud Vision for processing.  Requires Google Cloud Service Agent Credentials`,
-	Args:  cobra.MaximumNArgs(1),
+// preprocessCmd represents the preprocess command
+var preprocessCmd = &cobra.Command{
+	Use:   "preprocess",
+	Short: "Preprocesses the image ",
+	Long:  `Processes the original image with edge detection and other filters to make it easy to delineate between spins.`,
+	Args:  cobra.ExactArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("getting annotations")
-		err := godotenv.Load()
-		// GOOGLE_APPLICATION_CREDENTIALS := os.Getenv("GOOGLE_APPLICATION_CREDENTIALS")
-		if err != nil {
-			log.Fatal("Error loading .env file.  Add to directory or export credentials to env")
-		}
-		file.ProcessImage(args[0])
+		fmt.Println("preprocess image")
+		file.FilterImage(args[0])
 	},
 }
 
 func init() {
-	rootCmd.AddCommand(annotateCmd)
+	rootCmd.AddCommand(preprocessCmd)
 
 	// Here you will define your flags and configuration settings.
 
 	// Cobra supports Persistent Flags which will work for this command
 	// and all subcommands, e.g.:
-	// scanCmd.PersistentFlags().String("foo", "", "A help for foo")
+	// preprocessCmd.PersistentFlags().String("foo", "", "A help for foo")
 
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
-	// scanCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	// preprocessCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
 }

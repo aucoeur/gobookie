@@ -6,6 +6,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/anthonynsimon/bild/effect"
+	"github.com/anthonynsimon/bild/imgio"
 	"github.com/aucoeur/gobookie/gcputil"
 )
 
@@ -31,9 +33,23 @@ func WriteToFile(filename string, json []byte) {
 	}
 }
 
+func FilterImage(image string) error {
+	img, err := imgio.Open(image)
+	if err != nil {
+		log.Fatal(err)
+		return err
+	}
+	// result :=
+	result := effect.EdgeDetection(img, 2.5)
+	if err := imgio.Save("book1_processed.png", result, imgio.PNGEncoder()); err != nil {
+		fmt.Println(err)
+	}
+	return nil
+}
+
 // ProcessImage combines all the steps to getting annotations and saving as JSON file
 func ProcessImage(file string) error {
-
+	// file := FilterImage(file)
 	// Create new ImageAnnotation struct with file info and point to it
 	imgAnno := gcputil.NewImageAnnotation(file)
 

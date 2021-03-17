@@ -13,3 +13,7 @@ $ export GOOGLE_APPLICATION_CREDENTIALS=GOOGLE_SA_CREDENTIALS.json
 $ go build -o ./gobookie
 $ ./gobookie scan images/book_1.jpg
 ```
+
+# Resources
+- A Technique to Detect Books from Library Bookshelf Image - https://imruljubair.github.io/papers/bookICCC2013.pdf
+- Comparing Edge Detection Methods - https://medium.com/@nikatsanka/comparing-edge-detection-methods-638a2919476e
