@@ -1,0 +1,2193 @@
+{
+	"dirPath": "sample",
+	"filename": "horizontal",
+	"fileExtension": "png",
+	"text": [
+		{
+			"description": "Ties That Bind\nMOTS D'HEURES: GOUSSES, RAMES\nSARAI\nBORNSTEIN\nGENDER OUTLAW\nVINTAGE\nNEIL\nGAIMAN\nNeverwhere\nDISAPPEARING SPOON\nWATER for ELEPHANTS\nTHE PROPHET\nKAHLIL GIBRAN\nKNOPF\nDARING GREATLY\nBRENÉ BROWN,\nPh.D., LMSW\nSUCK LESS\nWhere Theres a\nWILLAM\nThenes A nay\nANTOINE DE SAINT-EXUPÉRY The Little Prince\nO Harcourt\nMaking Things Move\nDIY Mechanisms for Inventors,\nJust Listen\nMARK WOLYNN N G X IT DIDN'T START WITH YOU\nHanne Blank Straight\nThe Surprisingly Short\nHistory of Heterosexuality\nTOKYO VIGE S\nJAKE ADELSTEIN\nSCHOLASTIC PRESS B\nHi, Koo!\nMUTH\n-GER NIGATMADRE\nTetri\nHARUKI\nMURAKAMI\nadONX\nKEAN\n",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 87,
+						"y": 32
+					},
+					{
+						"x": 625,
+						"y": 32
+					},
+					{
+						"x": 625,
+						"y": 947
+					},
+					{
+						"x": 87,
+						"y": 947
+					}
+				]
+			}
+		},
+		{
+			"description": "Ties",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 195,
+						"y": 33
+					},
+					{
+						"x": 230,
+						"y": 33
+					},
+					{
+						"x": 230,
+						"y": 47
+					},
+					{
+						"x": 195,
+						"y": 47
+					}
+				]
+			}
+		},
+		{
+			"description": "That",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 241,
+						"y": 33
+					},
+					{
+						"x": 283,
+						"y": 33
+					},
+					{
+						"x": 283,
+						"y": 47
+					},
+					{
+						"x": 241,
+						"y": 47
+					}
+				]
+			}
+		},
+		{
+			"description": "Bind",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 292,
+						"y": 32
+					},
+					{
+						"x": 339,
+						"y": 32
+					},
+					{
+						"x": 339,
+						"y": 48
+					},
+					{
+						"x": 292,
+						"y": 48
+					}
+				]
+			}
+		},
+		{
+			"description": "MOTS",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 155,
+						"y": 58
+					},
+					{
+						"x": 206,
+						"y": 60
+					},
+					{
+						"x": 205,
+						"y": 76
+					},
+					{
+						"x": 154,
+						"y": 74
+					}
+				]
+			}
+		},
+		{
+			"description": "D'HEURES:",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 212,
+						"y": 59
+					},
+					{
+						"x": 294,
+						"y": 62
+					},
+					{
+						"x": 293,
+						"y": 78
+					},
+					{
+						"x": 211,
+						"y": 75
+					}
+				]
+			}
+		},
+		{
+			"description": "GOUSSES,",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 301,
+						"y": 66
+					},
+					{
+						"x": 373,
+						"y": 68
+					},
+					{
+						"x": 373,
+						"y": 80
+					},
+					{
+						"x": 301,
+						"y": 78
+					}
+				]
+			}
+		},
+		{
+			"description": "RAMES",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 380,
+						"y": 69
+					},
+					{
+						"x": 433,
+						"y": 71
+					},
+					{
+						"x": 433,
+						"y": 82
+					},
+					{
+						"x": 380,
+						"y": 80
+					}
+				]
+			}
+		},
+		{
+			"description": "SARAI",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 384,
+						"y": 36
+					},
+					{
+						"x": 409,
+						"y": 36
+					},
+					{
+						"x": 409,
+						"y": 47
+					},
+					{
+						"x": 384,
+						"y": 47
+					}
+				]
+			}
+		},
+		{
+			"description": "BORNSTEIN",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 165,
+						"y": 92
+					},
+					{
+						"x": 266,
+						"y": 93
+					},
+					{
+						"x": 266,
+						"y": 106
+					},
+					{
+						"x": 165,
+						"y": 105
+					}
+				]
+			}
+		},
+		{
+			"description": "GENDER",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 294,
+						"y": 93
+					},
+					{
+						"x": 364,
+						"y": 94
+					},
+					{
+						"x": 364,
+						"y": 107
+					},
+					{
+						"x": 294,
+						"y": 106
+					}
+				]
+			}
+		},
+		{
+			"description": "OUTLAW",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 373,
+						"y": 94
+					},
+					{
+						"x": 444,
+						"y": 95
+					},
+					{
+						"x": 444,
+						"y": 108
+					},
+					{
+						"x": 373,
+						"y": 107
+					}
+				]
+			}
+		},
+		{
+			"description": "VINTAGE",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 502,
+						"y": 100
+					},
+					{
+						"x": 531,
+						"y": 99
+					},
+					{
+						"x": 531,
+						"y": 104
+					},
+					{
+						"x": 502,
+						"y": 105
+					}
+				]
+			}
+		},
+		{
+			"description": "NEIL",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 192,
+						"y": 119
+					},
+					{
+						"x": 234,
+						"y": 119
+					},
+					{
+						"x": 234,
+						"y": 132
+					},
+					{
+						"x": 192,
+						"y": 132
+					}
+				]
+			}
+		},
+		{
+			"description": "GAIMAN",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 186,
+						"y": 136
+					},
+					{
+						"x": 271,
+						"y": 137
+					},
+					{
+						"x": 271,
+						"y": 154
+					},
+					{
+						"x": 186,
+						"y": 153
+					}
+				]
+			}
+		},
+		{
+			"description": "Neverwhere",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 308,
+						"y": 124
+					},
+					{
+						"x": 474,
+						"y": 127
+					},
+					{
+						"x": 474,
+						"y": 150
+					},
+					{
+						"x": 308,
+						"y": 147
+					}
+				]
+			}
+		},
+		{
+			"description": "DISAPPEARING",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 180,
+						"y": 181
+					},
+					{
+						"x": 313,
+						"y": 182
+					},
+					{
+						"x": 313,
+						"y": 198
+					},
+					{
+						"x": 180,
+						"y": 197
+					}
+				]
+			}
+		},
+		{
+			"description": "SPOON",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 325,
+						"y": 182
+					},
+					{
+						"x": 374,
+						"y": 182
+					},
+					{
+						"x": 374,
+						"y": 198
+					},
+					{
+						"x": 325,
+						"y": 198
+					}
+				]
+			}
+		},
+		{
+			"description": "WATER",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 219,
+						"y": 244
+					},
+					{
+						"x": 272,
+						"y": 244
+					},
+					{
+						"x": 272,
+						"y": 255
+					},
+					{
+						"x": 219,
+						"y": 255
+					}
+				]
+			}
+		},
+		{
+			"description": "for",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 279,
+						"y": 244
+					},
+					{
+						"x": 298,
+						"y": 244
+					},
+					{
+						"x": 298,
+						"y": 259
+					},
+					{
+						"x": 279,
+						"y": 259
+					}
+				]
+			}
+		},
+		{
+			"description": "ELEPHANTS",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 307,
+						"y": 245
+					},
+					{
+						"x": 396,
+						"y": 245
+					},
+					{
+						"x": 396,
+						"y": 256
+					},
+					{
+						"x": 307,
+						"y": 256
+					}
+				]
+			}
+		},
+		{
+			"description": "THE",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 150,
+						"y": 273
+					},
+					{
+						"x": 198,
+						"y": 274
+					},
+					{
+						"x": 198,
+						"y": 290
+					},
+					{
+						"x": 150,
+						"y": 289
+					}
+				]
+			}
+		},
+		{
+			"description": "PROPHET",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 208,
+						"y": 273
+					},
+					{
+						"x": 312,
+						"y": 274
+					},
+					{
+						"x": 312,
+						"y": 291
+					},
+					{
+						"x": 208,
+						"y": 290
+					}
+				]
+			}
+		},
+		{
+			"description": "KAHLIL",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 339,
+						"y": 279
+					},
+					{
+						"x": 401,
+						"y": 280
+					},
+					{
+						"x": 401,
+						"y": 289
+					},
+					{
+						"x": 339,
+						"y": 288
+					}
+				]
+			}
+		},
+		{
+			"description": "GIBRAN",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 408,
+						"y": 280
+					},
+					{
+						"x": 472,
+						"y": 281
+					},
+					{
+						"x": 472,
+						"y": 290
+					},
+					{
+						"x": 408,
+						"y": 289
+					}
+				]
+			}
+		},
+		{
+			"description": "KNOPF",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 510,
+						"y": 283
+					},
+					{
+						"x": 540,
+						"y": 283
+					},
+					{
+						"x": 540,
+						"y": 288
+					},
+					{
+						"x": 510,
+						"y": 288
+					}
+				]
+			}
+		},
+		{
+			"description": "DARING",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 140,
+						"y": 305
+					},
+					{
+						"x": 241,
+						"y": 307
+					},
+					{
+						"x": 241,
+						"y": 331
+					},
+					{
+						"x": 140,
+						"y": 329
+					}
+				]
+			}
+		},
+		{
+			"description": "GREATLY",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 249,
+						"y": 305
+					},
+					{
+						"x": 365,
+						"y": 307
+					},
+					{
+						"x": 365,
+						"y": 333
+					},
+					{
+						"x": 249,
+						"y": 331
+					}
+				]
+			}
+		},
+		{
+			"description": "BRENÉ",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 396,
+						"y": 307
+					},
+					{
+						"x": 447,
+						"y": 308
+					},
+					{
+						"x": 447,
+						"y": 323
+					},
+					{
+						"x": 396,
+						"y": 322
+					}
+				]
+			}
+		},
+		{
+			"description": "BROWN,",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 454,
+						"y": 311
+					},
+					{
+						"x": 508,
+						"y": 312
+					},
+					{
+						"x": 508,
+						"y": 322
+					},
+					{
+						"x": 454,
+						"y": 321
+					}
+				]
+			}
+		},
+		{
+			"description": "Ph.D.,",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 395,
+						"y": 326
+					},
+					{
+						"x": 421,
+						"y": 326
+					},
+					{
+						"x": 421,
+						"y": 336
+					},
+					{
+						"x": 395,
+						"y": 336
+					}
+				]
+			}
+		},
+		{
+			"description": "LMSW",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 426,
+						"y": 327
+					},
+					{
+						"x": 452,
+						"y": 327
+					},
+					{
+						"x": 452,
+						"y": 335
+					},
+					{
+						"x": 426,
+						"y": 335
+					}
+				]
+			}
+		},
+		{
+			"description": "SUCK",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 117,
+						"y": 351
+					},
+					{
+						"x": 209,
+						"y": 352
+					},
+					{
+						"x": 209,
+						"y": 388
+					},
+					{
+						"x": 117,
+						"y": 387
+					}
+				]
+			}
+		},
+		{
+			"description": "LESS",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 224,
+						"y": 352
+					},
+					{
+						"x": 305,
+						"y": 353
+					},
+					{
+						"x": 305,
+						"y": 388
+					},
+					{
+						"x": 224,
+						"y": 387
+					}
+				]
+			}
+		},
+		{
+			"description": "Where",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 314,
+						"y": 360
+					},
+					{
+						"x": 341,
+						"y": 359
+					},
+					{
+						"x": 342,
+						"y": 368
+					},
+					{
+						"x": 315,
+						"y": 370
+					}
+				]
+			}
+		},
+		{
+			"description": "Theres",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 344,
+						"y": 358
+					},
+					{
+						"x": 372,
+						"y": 356
+					},
+					{
+						"x": 373,
+						"y": 368
+					},
+					{
+						"x": 345,
+						"y": 370
+					}
+				]
+			}
+		},
+		{
+			"description": "a",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 375,
+						"y": 358
+					},
+					{
+						"x": 380,
+						"y": 358
+					},
+					{
+						"x": 380,
+						"y": 363
+					},
+					{
+						"x": 375,
+						"y": 363
+					}
+				]
+			}
+		},
+		{
+			"description": "WILLAM",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 359,
+						"y": 359
+					},
+					{
+						"x": 462,
+						"y": 351
+					},
+					{
+						"x": 464,
+						"y": 381
+					},
+					{
+						"x": 361,
+						"y": 389
+					}
+				]
+			}
+		},
+		{
+			"description": "Thenes",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 434,
+						"y": 374
+					},
+					{
+						"x": 464,
+						"y": 370
+					},
+					{
+						"x": 465,
+						"y": 381
+					},
+					{
+						"x": 435,
+						"y": 385
+					}
+				]
+			}
+		},
+		{
+			"description": "A",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 469,
+						"y": 373
+					},
+					{
+						"x": 474,
+						"y": 372
+					},
+					{
+						"x": 475,
+						"y": 378
+					},
+					{
+						"x": 470,
+						"y": 379
+					}
+				]
+			}
+		},
+		{
+			"description": "nay",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 479,
+						"y": 372
+					},
+					{
+						"x": 498,
+						"y": 370
+					},
+					{
+						"x": 499,
+						"y": 379
+					},
+					{
+						"x": 480,
+						"y": 381
+					}
+				]
+			}
+		},
+		{
+			"description": "ANTOINE",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 112,
+						"y": 404
+					},
+					{
+						"x": 174,
+						"y": 404
+					},
+					{
+						"x": 174,
+						"y": 412
+					},
+					{
+						"x": 112,
+						"y": 412
+					}
+				]
+			}
+		},
+		{
+			"description": "DE",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 182,
+						"y": 404
+					},
+					{
+						"x": 197,
+						"y": 404
+					},
+					{
+						"x": 197,
+						"y": 412
+					},
+					{
+						"x": 182,
+						"y": 412
+					}
+				]
+			}
+		},
+		{
+			"description": "SAINT-EXUPÉRY",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 205,
+						"y": 401
+					},
+					{
+						"x": 309,
+						"y": 401
+					},
+					{
+						"x": 309,
+						"y": 412
+					},
+					{
+						"x": 205,
+						"y": 412
+					}
+				]
+			}
+		},
+		{
+			"description": "The",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 334,
+						"y": 400
+					},
+					{
+						"x": 357,
+						"y": 400
+					},
+					{
+						"x": 357,
+						"y": 415
+					},
+					{
+						"x": 334,
+						"y": 415
+					}
+				]
+			}
+		},
+		{
+			"description": "Little",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 361,
+						"y": 399
+					},
+					{
+						"x": 398,
+						"y": 399
+					},
+					{
+						"x": 398,
+						"y": 415
+					},
+					{
+						"x": 361,
+						"y": 415
+					}
+				]
+			}
+		},
+		{
+			"description": "Prince",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 404,
+						"y": 400
+					},
+					{
+						"x": 450,
+						"y": 400
+					},
+					{
+						"x": 450,
+						"y": 415
+					},
+					{
+						"x": 404,
+						"y": 415
+					}
+				]
+			}
+		},
+		{
+			"description": "O",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 535,
+						"y": 400
+					},
+					{
+						"x": 545,
+						"y": 400
+					},
+					{
+						"x": 545,
+						"y": 410
+					},
+					{
+						"x": 535,
+						"y": 410
+					}
+				]
+			}
+		},
+		{
+			"description": "Harcourt",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 548,
+						"y": 402
+					},
+					{
+						"x": 580,
+						"y": 402
+					},
+					{
+						"x": 580,
+						"y": 408
+					},
+					{
+						"x": 548,
+						"y": 408
+					}
+				]
+			}
+		},
+		{
+			"description": "Making",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 108,
+						"y": 433
+					},
+					{
+						"x": 215,
+						"y": 434
+					},
+					{
+						"x": 215,
+						"y": 467
+					},
+					{
+						"x": 108,
+						"y": 466
+					}
+				]
+			}
+		},
+		{
+			"description": "Things",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 224,
+						"y": 432
+					},
+					{
+						"x": 316,
+						"y": 433
+					},
+					{
+						"x": 316,
+						"y": 466
+					},
+					{
+						"x": 224,
+						"y": 465
+					}
+				]
+			}
+		},
+		{
+			"description": "Move",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 333,
+						"y": 432
+					},
+					{
+						"x": 390,
+						"y": 432
+					},
+					{
+						"x": 390,
+						"y": 468
+					},
+					{
+						"x": 333,
+						"y": 468
+					}
+				]
+			}
+		},
+		{
+			"description": "DIY",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 406,
+						"y": 438
+					},
+					{
+						"x": 419,
+						"y": 438
+					},
+					{
+						"x": 419,
+						"y": 445
+					},
+					{
+						"x": 406,
+						"y": 445
+					}
+				]
+			}
+		},
+		{
+			"description": "Mechanisms",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 424,
+						"y": 437
+					},
+					{
+						"x": 472,
+						"y": 437
+					},
+					{
+						"x": 472,
+						"y": 444
+					},
+					{
+						"x": 424,
+						"y": 444
+					}
+				]
+			}
+		},
+		{
+			"description": "for",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 475,
+						"y": 436
+					},
+					{
+						"x": 486,
+						"y": 436
+					},
+					{
+						"x": 486,
+						"y": 443
+					},
+					{
+						"x": 475,
+						"y": 443
+					}
+				]
+			}
+		},
+		{
+			"description": "Inventors,",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 490,
+						"y": 437
+					},
+					{
+						"x": 528,
+						"y": 437
+					},
+					{
+						"x": 528,
+						"y": 444
+					},
+					{
+						"x": 490,
+						"y": 444
+					}
+				]
+			}
+		},
+		{
+			"description": "Just",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 231,
+						"y": 477
+					},
+					{
+						"x": 315,
+						"y": 476
+					},
+					{
+						"x": 316,
+						"y": 518
+					},
+					{
+						"x": 232,
+						"y": 519
+					}
+				]
+			}
+		},
+		{
+			"description": "Listen",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 330,
+						"y": 475
+					},
+					{
+						"x": 441,
+						"y": 473
+					},
+					{
+						"x": 442,
+						"y": 516
+					},
+					{
+						"x": 331,
+						"y": 518
+					}
+				]
+			}
+		},
+		{
+			"description": "MARK",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 114,
+						"y": 554
+					},
+					{
+						"x": 156,
+						"y": 552
+					},
+					{
+						"x": 156,
+						"y": 561
+					},
+					{
+						"x": 114,
+						"y": 563
+					}
+				]
+			}
+		},
+		{
+			"description": "WOLYNN",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 165,
+						"y": 551
+					},
+					{
+						"x": 228,
+						"y": 549
+					},
+					{
+						"x": 228,
+						"y": 559
+					},
+					{
+						"x": 165,
+						"y": 561
+					}
+				]
+			}
+		},
+		{
+			"description": "N",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 280,
+						"y": 544
+					},
+					{
+						"x": 289,
+						"y": 544
+					},
+					{
+						"x": 290,
+						"y": 560
+					},
+					{
+						"x": 281,
+						"y": 560
+					}
+				]
+			}
+		},
+		{
+			"description": "G",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 299,
+						"y": 543
+					},
+					{
+						"x": 312,
+						"y": 543
+					},
+					{
+						"x": 313,
+						"y": 559
+					},
+					{
+						"x": 300,
+						"y": 559
+					}
+				]
+			}
+		},
+		{
+			"description": "X",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 326,
+						"y": 543
+					},
+					{
+						"x": 369,
+						"y": 541
+					},
+					{
+						"x": 369,
+						"y": 555
+					},
+					{
+						"x": 327,
+						"y": 557
+					}
+				]
+			}
+		},
+		{
+			"description": "IT",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 379,
+						"y": 544
+					},
+					{
+						"x": 389,
+						"y": 544
+					},
+					{
+						"x": 389,
+						"y": 552
+					},
+					{
+						"x": 379,
+						"y": 552
+					}
+				]
+			}
+		},
+		{
+			"description": "DIDN'T",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 398,
+						"y": 543
+					},
+					{
+						"x": 445,
+						"y": 541
+					},
+					{
+						"x": 445,
+						"y": 551
+					},
+					{
+						"x": 398,
+						"y": 553
+					}
+				]
+			}
+		},
+		{
+			"description": "START",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 454,
+						"y": 541
+					},
+					{
+						"x": 495,
+						"y": 540
+					},
+					{
+						"x": 495,
+						"y": 550
+					},
+					{
+						"x": 454,
+						"y": 551
+					}
+				]
+			}
+		},
+		{
+			"description": "WITH",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 503,
+						"y": 540
+					},
+					{
+						"x": 537,
+						"y": 539
+					},
+					{
+						"x": 537,
+						"y": 548
+					},
+					{
+						"x": 503,
+						"y": 549
+					}
+				]
+			}
+		},
+		{
+			"description": "YOU",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 546,
+						"y": 539
+					},
+					{
+						"x": 574,
+						"y": 538
+					},
+					{
+						"x": 574,
+						"y": 547
+					},
+					{
+						"x": 546,
+						"y": 548
+					}
+				]
+			}
+		},
+		{
+			"description": "Hanne",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 128,
+						"y": 606
+					},
+					{
+						"x": 172,
+						"y": 604
+					},
+					{
+						"x": 172,
+						"y": 615
+					},
+					{
+						"x": 129,
+						"y": 617
+					}
+				]
+			}
+		},
+		{
+			"description": "Blank",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 180,
+						"y": 604
+					},
+					{
+						"x": 220,
+						"y": 602
+					},
+					{
+						"x": 220,
+						"y": 612
+					},
+					{
+						"x": 180,
+						"y": 614
+					}
+				]
+			}
+		},
+		{
+			"description": "Straight",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 240,
+						"y": 590
+					},
+					{
+						"x": 381,
+						"y": 583
+					},
+					{
+						"x": 382,
+						"y": 615
+					},
+					{
+						"x": 242,
+						"y": 622
+					}
+				]
+			}
+		},
+		{
+			"description": "The",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 389,
+						"y": 587
+					},
+					{
+						"x": 407,
+						"y": 587
+					},
+					{
+						"x": 407,
+						"y": 595
+					},
+					{
+						"x": 389,
+						"y": 595
+					}
+				]
+			}
+		},
+		{
+			"description": "Surprisingly",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 412,
+						"y": 584
+					},
+					{
+						"x": 474,
+						"y": 582
+					},
+					{
+						"x": 474,
+						"y": 594
+					},
+					{
+						"x": 412,
+						"y": 596
+					}
+				]
+			}
+		},
+		{
+			"description": "Short",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 479,
+						"y": 583
+					},
+					{
+						"x": 506,
+						"y": 582
+					},
+					{
+						"x": 506,
+						"y": 591
+					},
+					{
+						"x": 479,
+						"y": 592
+					}
+				]
+			}
+		},
+		{
+			"description": "History",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 390,
+						"y": 601
+					},
+					{
+						"x": 426,
+						"y": 600
+					},
+					{
+						"x": 426,
+						"y": 610
+					},
+					{
+						"x": 390,
+						"y": 611
+					}
+				]
+			}
+		},
+		{
+			"description": "of",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 431,
+						"y": 600
+					},
+					{
+						"x": 440,
+						"y": 600
+					},
+					{
+						"x": 440,
+						"y": 607
+					},
+					{
+						"x": 431,
+						"y": 607
+					}
+				]
+			}
+		},
+		{
+			"description": "Heterosexuality",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 444,
+						"y": 598
+					},
+					{
+						"x": 523,
+						"y": 595
+					},
+					{
+						"x": 523,
+						"y": 606
+					},
+					{
+						"x": 444,
+						"y": 609
+					}
+				]
+			}
+		},
+		{
+			"description": "TOKYO",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 122,
+						"y": 759
+					},
+					{
+						"x": 323,
+						"y": 741
+					},
+					{
+						"x": 327,
+						"y": 783
+					},
+					{
+						"x": 126,
+						"y": 801
+					}
+				]
+			}
+		},
+		{
+			"description": "VIGE",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 356,
+						"y": 738
+					},
+					{
+						"x": 474,
+						"y": 727
+					},
+					{
+						"x": 477,
+						"y": 769
+					},
+					{
+						"x": 360,
+						"y": 780
+					}
+				]
+			}
+		},
+		{
+			"description": "S",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 555,
+						"y": 720
+					},
+					{
+						"x": 588,
+						"y": 717
+					},
+					{
+						"x": 592,
+						"y": 759
+					},
+					{
+						"x": 559,
+						"y": 762
+					}
+				]
+			}
+		},
+		{
+			"description": "JAKE",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 376,
+						"y": 772
+					},
+					{
+						"x": 419,
+						"y": 768
+					},
+					{
+						"x": 420,
+						"y": 780
+					},
+					{
+						"x": 377,
+						"y": 784
+					}
+				]
+			}
+		},
+		{
+			"description": "ADELSTEIN",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 423,
+						"y": 767
+					},
+					{
+						"x": 501,
+						"y": 760
+					},
+					{
+						"x": 502,
+						"y": 773
+					},
+					{
+						"x": 424,
+						"y": 780
+					}
+				]
+			}
+		},
+		{
+			"description": "SCHOLASTIC",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 501,
+						"y": 854
+					},
+					{
+						"x": 574,
+						"y": 847
+					},
+					{
+						"x": 575,
+						"y": 858
+					},
+					{
+						"x": 502,
+						"y": 865
+					}
+				]
+			}
+		},
+		{
+			"description": "PRESS",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 574,
+						"y": 848
+					},
+					{
+						"x": 605,
+						"y": 845
+					},
+					{
+						"x": 606,
+						"y": 853
+					},
+					{
+						"x": 575,
+						"y": 856
+					}
+				]
+			}
+		},
+		{
+			"description": "B",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 619,
+						"y": 843
+					},
+					{
+						"x": 624,
+						"y": 843
+					},
+					{
+						"x": 625,
+						"y": 852
+					},
+					{
+						"x": 620,
+						"y": 853
+					}
+				]
+			}
+		},
+		{
+			"description": "Hi,",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 293,
+						"y": 865
+					},
+					{
+						"x": 333,
+						"y": 862
+					},
+					{
+						"x": 335,
+						"y": 884
+					},
+					{
+						"x": 295,
+						"y": 887
+					}
+				]
+			}
+		},
+		{
+			"description": "Koo!",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 336,
+						"y": 861
+					},
+					{
+						"x": 379,
+						"y": 858
+					},
+					{
+						"x": 381,
+						"y": 881
+					},
+					{
+						"x": 338,
+						"y": 884
+					}
+				]
+			}
+		},
+		{
+			"description": "MUTH",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 118,
+						"y": 887
+					},
+					{
+						"x": 169,
+						"y": 884
+					},
+					{
+						"x": 170,
+						"y": 895
+					},
+					{
+						"x": 119,
+						"y": 898
+					}
+				]
+			}
+		},
+		{
+			"description": "-GER",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 165,
+						"y": 918
+					},
+					{
+						"x": 307,
+						"y": 903
+					},
+					{
+						"x": 310,
+						"y": 926
+					},
+					{
+						"x": 167,
+						"y": 941
+					}
+				]
+			}
+		},
+		{
+			"description": "NIGATMADRE",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 322,
+						"y": 900
+					},
+					{
+						"x": 584,
+						"y": 872
+					},
+					{
+						"x": 586,
+						"y": 900
+					},
+					{
+						"x": 325,
+						"y": 928
+					}
+				]
+			}
+		},
+		{
+			"description": "Tetri",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 87,
+						"y": 934
+					},
+					{
+						"x": 121,
+						"y": 932
+					},
+					{
+						"x": 122,
+						"y": 945
+					},
+					{
+						"x": 88,
+						"y": 947
+					}
+				]
+			}
+		},
+		{
+			"description": "HARUKI",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 222,
+						"y": 719
+					},
+					{
+						"x": 220,
+						"y": 651
+					},
+					{
+						"x": 229,
+						"y": 651
+					},
+					{
+						"x": 231,
+						"y": 719
+					}
+				]
+			}
+		},
+		{
+			"description": "MURAKAMI",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 338,
+						"y": 724
+					},
+					{
+						"x": 335,
+						"y": 630
+					},
+					{
+						"x": 345,
+						"y": 630
+					},
+					{
+						"x": 348,
+						"y": 724
+					}
+				]
+			}
+		},
+		{
+			"description": "adONX",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 458,
+						"y": 650
+					},
+					{
+						"x": 458,
+						"y": 691
+					},
+					{
+						"x": 452,
+						"y": 691
+					},
+					{
+						"x": 452,
+						"y": 650
+					}
+				]
+			}
+		},
+		{
+			"description": "KEAN",
+			"boundingPoly": {
+				"vertices": [
+					{
+						"x": 492,
+						"y": 213
+					},
+					{
+						"x": 492,
+						"y": 178
+					},
+					{
+						"x": 511,
+						"y": 178
+					},
+					{
+						"x": 511,
+						"y": 213
+					}
+				]
+			}
+		}
+	],
+	"object": null
+}

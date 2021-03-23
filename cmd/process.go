@@ -25,24 +25,24 @@ package cmd
 import (
 	"fmt"
 
-	file "github.com/aucoeur/gobookie/file"
+	draw "github.com/aucoeur/gobookie/draw"
 	"github.com/spf13/cobra"
 )
 
-// preprocessCmd represents the preprocess command
-var preprocessCmd = &cobra.Command{
-	Use:   "preprocess",
-	Short: "Preprocesses the image ",
+// processCmd represents the preprocess command
+var processCmd = &cobra.Command{
+	Use:   "process",
+	Short: "Processes the image ",
 	Long:  `Processes the original image with edge detection and other filters to make it easy to delineate between spins.`,
 	Args:  cobra.ExactArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("preprocess image")
-		file.FilterImage(args[0])
+		fmt.Println("Process image")
+		draw.RotateImage(args[0])
 	},
 }
 
 func init() {
-	rootCmd.AddCommand(preprocessCmd)
+	rootCmd.AddCommand(processCmd)
 
 	// Here you will define your flags and configuration settings.
 

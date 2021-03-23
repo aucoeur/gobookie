@@ -45,7 +45,7 @@ var annotateCmd = &cobra.Command{
 		if err != nil {
 			log.Fatal("Error loading .env file.  Add to directory or export credentials to env")
 		}
-		file.ProcessImage(args[0])
+		file.SaveTextAnnotation(args[0])
 	},
 }
 
